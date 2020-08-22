@@ -1,11 +1,9 @@
 <template>
   <div id="nav">
-    <div>
-      <div>
-        Vue CLI 試しに作ってみたページ
-      </div>
+    <div id="title">
+      <span>Vue CLI 試しに作ってみたページ</span>
     </div>
-    <div>
+    <div id="pages">
       <ul>
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/about">About</router-link></li>
@@ -23,13 +21,15 @@ export default {
 </script>
 
 <style scoped>
-div#nav {
+#nav {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
-div#nav div {
-  flex: 1 0 fit-content;
+#title span {
+  text-align: left;
+  top: calc(50% - 1eh);
 }
 
 ul {
