@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
     <div id="title">
-      <span>Vue CLI 試しに作ってみたページ</span>
+      <span>Vue CLIで試しに作ってみたページ</span>
     </div>
     <div id="pages">
       <ul>
