@@ -1,6 +1,10 @@
 <template>
   <div id="app">
+
+    <!-- コンポーネント「Navigation」を表示する -->
     <Navigation></Navigation>
+
+    <!-- Navigation内のrouter-linkで選択されたコンポーネントがここに表示される -->
     <router-view/>
   </div>
 </template>
